@@ -200,7 +200,11 @@ export function ClientContextProvider({ children }: { children: ReactNode | Reac
             chains: [`eip155:${chainId}`],
             events: ["chainChanged", "accountsChanged"],
             rpcMap: {
-              chainId: `https://rpc.walletconnect.com?chainId=eip155:${chainId}&projectId=${DEFAULT_PROJECT_ID}`,
+              chainId: chainId === '381931'
+                ? 'https://api.metalblockchain.org/ext/bc/C/rpc'
+                : chainId === '381932'
+                  ? 'https://tahoe.metalblockchain.org/ext/bc/C/rpc'
+                  : `https://rpc.walletconnect.com?chainId=eip155:${chainId}&projectId=${DEFAULT_PROJECT_ID}`,
             },
           },
         },
