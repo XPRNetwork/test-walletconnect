@@ -200,7 +200,7 @@ export function ClientContextProvider({ children }: { children: ReactNode | Reac
             chains: [`eip155:${chainId}`],
             events: ["chainChanged", "accountsChanged"],
             rpcMap: {
-              chainId: chainId === '381931'
+              [chainId!]: chainId === '381931'
                 ? 'https://api.metalblockchain.org/ext/bc/C/rpc'
                 : chainId === '381932'
                   ? 'https://tahoe.metalblockchain.org/ext/bc/C/rpc'
