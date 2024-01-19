@@ -17,7 +17,7 @@ const WALLETCONNECT_RPC_BASE_URL = `https://rpc.walletconnect.com/v1?projectId=$
 export const rpcProvidersByChainId: RpcProvidersByChainId = {
   381931: {
     name: "Metal C-Chain",
-    baseURL: WALLETCONNECT_RPC_BASE_URL + "&chainId=eip155:381931",
+    baseURL: "https://api.metalblockchain.org/ext/bc/C/rpc",
     token: {
       name: "Ether",
       symbol: "ETH",
@@ -25,7 +25,7 @@ export const rpcProvidersByChainId: RpcProvidersByChainId = {
   },
   381932: {
     name: "Metal C-Chain (Testnet)",
-    baseURL: WALLETCONNECT_RPC_BASE_URL + "&chainId=eip155:381932",
+    baseURL: "https://tahoe.metalblockchain.org/ext/bc/C/rpc",
     token: {
       name: "Ether",
       symbol: "ETH",
