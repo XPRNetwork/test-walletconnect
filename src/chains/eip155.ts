@@ -157,6 +157,7 @@ export const EIP155ChainData = {
   },
 };
 
+//
 export const EIP155Metadata: NamespaceMetadata = {
   "381931": {
     name: "Metal C-Chain",
