@@ -25,6 +25,7 @@ export const EIP155ChainData = {
     rpc: ["https://api.metalblockchain.org/ext/bc/C/rpc"],
     slip44: 60,
     testnet: false,
+    symbol: 'METAL'
   },
   "381932": {
     name: "Metal C-Chain (Testnet)",
@@ -32,6 +33,7 @@ export const EIP155ChainData = {
     rpc: ["https://tahoe.metalblockchain.org/ext/bc/C/rpc"],
     slip44: 60,
     testnet: true,
+    symbol: 'METAL'
   },
   "1": {
     name: "Ethereum Mainnet",
@@ -39,6 +41,7 @@ export const EIP155ChainData = {
     rpc: ["https://api.mycryptoapi.com/eth"],
     slip44: 60,
     testnet: false,
+    symbol: 'ETH'
   },
   "5": {
     name: "Ethereum Goerli",
@@ -46,6 +49,7 @@ export const EIP155ChainData = {
     rpc: ["https://rpc.goerli.mudit.blog"],
     slip44: 60,
     testnet: true,
+    symbol: 'ETH'
   },
   "10": {
     name: "Optimism Mainnet",
@@ -53,6 +57,7 @@ export const EIP155ChainData = {
     rpc: ["https://mainnet.optimism.io"],
     slip44: 60,
     testnet: false,
+    symbol: 'ETH'
   },
   "42": {
     name: "Ethereum Kovan",
@@ -60,6 +65,7 @@ export const EIP155ChainData = {
     rpc: ["https://kovan.poa.network"],
     slip44: 60,
     testnet: true,
+    symbol: 'ETH'
   },
   "69": {
     name: "Optimism Kovan",
@@ -67,6 +73,7 @@ export const EIP155ChainData = {
     rpc: ["https://kovan.optimism.io"],
     slip44: 60,
     testnet: true,
+    symbol: 'ETH'
   },
   "100": {
     name: "xDAI",
@@ -74,6 +81,7 @@ export const EIP155ChainData = {
     rpc: ["https://dai.poa.network"],
     slip44: 60,
     testnet: false,
+    symbol: 'ETH'
   },
   "280": {
     name: "zkSync Era Testnet",
@@ -81,6 +89,7 @@ export const EIP155ChainData = {
     rpc: ["https://testnet.era.zksync.dev"],
     slip44: 60,
     testnet: true,
+    symbol: 'ETH'
   },
   "324": {
     name: "zkSync Era",
@@ -88,6 +97,7 @@ export const EIP155ChainData = {
     rpc: ["https://mainnet.era.zksync.io"],
     slip44: 60,
     testnet: false,
+    symbol: 'ETH'
   },
   "137": {
     name: "Polygon Mainnet",
@@ -95,6 +105,7 @@ export const EIP155ChainData = {
     rpc: ["https://rpc-mainnet.matic.network"],
     slip44: 60,
     testnet: false,
+    symbol: 'ETH'
   },
   "420": {
     name: "Optimism Goerli",
@@ -102,6 +113,7 @@ export const EIP155ChainData = {
     rpc: ["https://goerli.optimism.io"],
     slip44: 60,
     testnet: true,
+    symbol: 'ETH'
   },
   "42161": {
     name: "Arbitrum One",
@@ -109,6 +121,7 @@ export const EIP155ChainData = {
     rpc: ["https://arb1.arbitrum.io/rpc"],
     slip44: 60,
     testnet: false,
+    symbol: 'ETH'
   },
   "42220": {
     name: "Celo Mainnet",
@@ -116,6 +129,7 @@ export const EIP155ChainData = {
     rpc: ["https://forno.celo.org"],
     slip44: 52752,
     testnet: false,
+    symbol: 'ETH'
   },
   "44787": {
     name: "Celo Alfajores",
@@ -123,6 +137,7 @@ export const EIP155ChainData = {
     rpc: ["https://alfajores-forno.celo-testnet.org"],
     slip44: 52752,
     testnet: true,
+    symbol: 'ETH'
   },
   "80001": {
     name: "Polygon Mumbai",
@@ -130,6 +145,7 @@ export const EIP155ChainData = {
     rpc: ["https://rpc-mumbai.matic.today"],
     slip44: 60,
     testnet: true,
+    symbol: 'ETH'
   },
   "421611": {
     name: "Arbitrum Rinkeby",
@@ -137,18 +153,19 @@ export const EIP155ChainData = {
     rpc: ["https://rinkeby.arbitrum.io/rpc"],
     slip44: 60,
     testnet: true,
+    symbol: 'ETH'
   },
 };
 
 export const EIP155Metadata: NamespaceMetadata = {
   "381931": {
     name: "Metal C-Chain",
-    logo: "/assets/" + "eip155-1.png",
+    logo: "/assets/" + "eip155-381931.png",
     rgb: EIP155Colors.ethereum,
   },
   "381932": {
     name: "Metal C-Chain (Testnet)",
-    logo: "/assets/" + "eip155-1.png",
+    logo: "/assets/" + "eip155-381931.png",
     rgb: EIP155Colors.ethereum,
   },
   "1": {

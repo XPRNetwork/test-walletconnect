@@ -291,7 +291,7 @@ export function ClientContextProvider({ children }: { children: ReactNode | Reac
             const balance = await web3Provider.getBalance(account);
             return {
               account,
-              symbol: "ETH",
+              symbol: chainData['eip155'][chain.split(':')[1]]?.symbol || "ETH",
               balance: utils.formatEther(balance),
               contractAddress: "",
             };

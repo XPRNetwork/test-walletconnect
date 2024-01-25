@@ -19,16 +19,16 @@ export const rpcProvidersByChainId: RpcProvidersByChainId = {
     name: "Metal C-Chain",
     baseURL: "https://api.metalblockchain.org/ext/bc/C/rpc",
     token: {
-      name: "Ether",
-      symbol: "ETH",
+      name: "Metal",
+      symbol: "METAL",
     },
   },
   381932: {
     name: "Metal C-Chain (Testnet)",
     baseURL: "https://tahoe.metalblockchain.org/ext/bc/C/rpc",
     token: {
-      name: "Ether",
-      symbol: "ETH",
+      name: "Metal",
+      symbol: "METAL",
     },
   },
   1: {

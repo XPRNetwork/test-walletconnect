@@ -151,6 +151,7 @@ export interface ChainNamespaces {
       rpc: string[];
       slip44: number;
       testnet: boolean;
+      symbol: string
     };
   };
 }
